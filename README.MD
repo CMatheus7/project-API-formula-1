@@ -7,14 +7,14 @@ Uma API simples e modular feita com **Fastify**, simulando dados de times e pilo
 ## 📁 Estrutura do Projeto
 
 src/
-├── controllers/
-│ ├── driversController.ts # Rotas de pilotos
-│ └── teamsController.ts # Rotas de equipes
-├── utils/
-│ ├── findById.ts # Busca genérica por ID
-│ ├── parse.ts # Conversão segura de valores
-│ └── response.ts # Padronização de respostas JSON
-└── server.ts # Arquivo principal do servidor
+- ├── controllers/
+- │ ├── driversController.ts # Rotas de pilotos
+- │ └── teamsController.ts # Rotas de equipes
+- ├── utils/
+- │ ├── findById.ts # Busca genérica por ID
+- │ ├── parse.ts # Conversão segura de valores
+- │ └── response.ts # Padronização de respostas JSON
+- └── server.ts # Arquivo principal do servidor
 
 
 ---
