@@ -6,15 +6,15 @@ Uma API simples e modular feita com **Fastify**, simulando dados de times e pilo
 
 ## 📁 Estrutura do Projeto
 
-project-root/
-├── server.ts # Arquivo principal para iniciar o servidor
-├── controllers/ # Lógica das rotas
+src/
+├── controllers/
 │ ├── driversController.ts # Rotas de pilotos
 │ └── teamsController.ts # Rotas de equipes
-└── utils/ # Funções auxiliares reutilizáveis
-├── findById.ts
-├── parse.ts
-└── response.ts
+├── utils/
+│ ├── findById.ts # Busca genérica por ID
+│ ├── parse.ts # Conversão segura de valores
+│ └── response.ts # Padronização de respostas JSON
+└── server.ts # Arquivo principal do servidor
 
 
 ---
@@ -24,6 +24,11 @@ project-root/
 1. **Instale as dependências**
 ```bash
 npm install
+
+## Inicie o servidor
+
+# bash
+npm run dev
 
 ##📡 Rotas disponíveis
 
